@@ -10,7 +10,7 @@ export default class App extends React.Component {
     return (
         <Animation
           ref={animation => { this.animation = animation; }}
-          style={styles.animation} loop
+          style={styles.animation} 
           source={require('./assets/lottie.json')}
         />
     );
